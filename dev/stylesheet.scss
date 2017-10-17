@@ -1,6 +1,249 @@
-$red: #ff00ff;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+$headline-fonts: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-fonts: $headline-fonts;
+$logo-font: "Norse";
+
+$primary: #cc9543;
+$text-primary: #4a4a4a;
+$grey: rgba(74, 74, 74, 0.7);
+$pale-grey: rgba(74, 74, 74, 0.3);
+$very-pale-grey: rgba(0, 0, 0, 0.1);
+$light-grey: #eee;
+$pale-grey-bg: rgba(0, 0, 0, 0.03);
+$dark-grey: #ddd;
+$white: #fff;
+$white-smoke: #f3f3f3;
+$black: #000;
+$dusty-orange: #ec761f;
+$camo: #8e8e4c;
+$coffee: #a6824a;
+$light-orange: #ce973e;
+$whitish-grey: #d8d8d8;
+$red-danger: #dd4b39;
+$google-color: #dd4b39;
+$success-color: #96B874;
+$viking-logo-text: #11343d;
+
+//buttons
+$button-primary: #6abfc3;
+$button-seconday: #cc9543;
+$github-brand-color: $text-primary;
+$google-brand-color: #4d90fe;
+$button-disabled: rgba(216, 216, 216, 0.8);
+
+h1, h2, h3, h4, p {
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  letter-spacing: 0.2px;
+}
+
+h4 {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+p {
+  color: $grey;
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+.small {
+  font-size: .8125rem;
+  letter-spacing: 0.2px;
+}
+
+.secondary {
+  color: $grey;
+}
+
+.disabled {
+  color: $pale-grey;
+}
+
+.accent {
+  color: $light-orange;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 
 body {
-  background-color: $red;
+  background-color: $pale-grey;
   height:  100px;
+}
+
+h1 {
+  color: $light-orange;
+}
+/* **********************
+Tutorial
+******************** */
+
+
+/* Basics */
+body {
+    margin: 0 !important;
+    padding: 0;
+    background-color: #ffffff;
+}
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+div[style*="margin: 16px 0"] { 
+    margin:0 !important;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.webkit {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.outer {
+Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: pink;
+}
+
+.inner {
+padding: 10px;
+}
+.no-padding {
+  padding: 10px 0 10px 0;
+}
+p {
+    Margin: 0;
+}
+a {
+    color: #ee6a56;
+    text-decoration: underline;
+}
+.h1 {
+    font-size: 21px;
+    font-weight: bold;
+    Margin-bottom: 18px;
+}
+.h2 {
+    font-size: 18px;
+    font-weight: bold;
+    Margin-bottom: 12px;
+}
+ 
+/* One column layout */
+.one-column .contents {
+    text-align: left;
+}
+.one-column p {
+    font-size: 14px;
+    Margin-bottom: 10px;
+}
+
+.two-column {
+  text-align: center;
+  font-size: 0;
+}
+
+.two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contents {
+  width: 100%;
+}
+
+.two-column .contents {
+font-size: 14px;
+    text-align: left;
+}
+.two-column img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+.two-column .text {
+    padding-top: 10px;
+}
+
+/* Left sidebar layout */
+.left-sidebar {
+text-align: center;
+    font-size: 0;
+}
+.left-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.left-sidebar .left {
+    max-width: 100px;
+}
+.left-sidebar .right {
+    max-width: 500px;
+}
+
+
+
+
+//my css
+
+.center {
+  text-align: center;
+}
+
+.full-width-image img {
+    width: 100%;
+    max-width: 60px;
+    height: auto;
+}
+
+.camo-bg {
+  background-color: $camo;
+}
+
+body {
+  background-color: yellow;
+}
+
+.h3 {
+  text-align: left;
+}
+
+.h3-paragraph {
+  text-align: left;
 }

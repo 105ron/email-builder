@@ -18,5 +18,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-swig": "^0.8.0",
     "run-sequence": "^2.2.0"
+  },
+  "dependencies": {
+    "nodemailer": "^4.2.0"
   }
 }
