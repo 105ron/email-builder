@@ -82,10 +82,6 @@ h4 {
 }
 
 
-body {
-  background-color: $pale-grey;
-}
-
 
 /* **********************
 Tutorial
@@ -120,15 +116,21 @@ div[style*="margin: 16px 0"] {
 }
 .webkit {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 }
-
+.padding-table {
+margin: 0;
+    width: 100%;
+    max-width: 600px;
+    background-color: #fafafa;
+    vertical-align: bottom;
+}
 .outer {
-Margin: 20px auto;
     width: 100%;
     max-width: 600px;
     border: 1px solid black;
     background-color: #ffffff;
+
 }
 
 .inner {
@@ -235,14 +237,23 @@ body {
   margin: 10px;
 }
 
-.top-border {
-  border-top: 1px solid #000;
-}
-
 .bold {
   font-weight: bold;
 }
 
 .camo-bg {
   background-color: $camo;
+}
+.italicised {
+  font-style: italic;
+}
+
+.login {
+  padding: 0;
+}
+
+.login-row{
+  background-color: #fafafa;
+  text-align: right;
+
 }
